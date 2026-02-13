@@ -94,7 +94,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git direnv zsh-syntax-highlighting)
+plugins=(git direnv)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -131,9 +131,6 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-alias zellij=/Applications/zellij
-alias cat=bat
-alias nano=vim
 alias calc="octave --eval"
 bindkey "^R" fzf-history-widget
 
