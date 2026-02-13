@@ -26,7 +26,6 @@ bindkey "^[[B" history-beginning-search-forward-end
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export CURRENT_FG="yellow"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
@@ -97,6 +96,9 @@ ZSH_THEME="agnoster"
 plugins=(git direnv)
 
 source $ZSH/oh-my-zsh.sh
+
+export CURRENT_FG='black'
+export CURRENT_BG='yellow'
 
 # User configuration
 
