@@ -26,11 +26,11 @@ foreground = "0xC0CAF5"
 style = "Underline"
 
 [font]
-size = 9.0
+size = 11.0
 
 [font.normal]
 family = "DejaVu Sans Mono"
-style = "Regular"
+style = "Book"
 
 [font.offset]
 x = 0
