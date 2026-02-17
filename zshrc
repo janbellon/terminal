@@ -7,7 +7,15 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # If you come from bash you might have to change your $PATH.
-export PATH=$PATH:/opt/scripts
+export PATH=$PATH
+
+if [[ -d /opt/scripts ]]; then
+  export PATH=$PATH:/opt/scripts
+fi
+
+if [[ -d /Applications ]]; then
+  export PATH=$PATH:/Applications
+fi
 
 # ** Custom ** #
 
