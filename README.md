@@ -31,5 +31,5 @@ git clone https://gitlab.nobell.fr/jan/terminal ~/.terminal
 cd ~/.terminal
 rm -rf ~/.config/alacritty && ln -s ~/.terminal/alacritty ~/.config/alacritty
 rm -rf ~/.config/zellij && ln -s ~/.terminal/zellij ~/.config/zellij
-rm ~/.zshrc && ln -s ~/.terminal/.zshrc ~/.zshrc
+echo "source ~/.terminal/zshrc" >> ~/.zshrc
 ```
