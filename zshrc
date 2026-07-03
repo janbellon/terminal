@@ -1,4 +1,3 @@
-export DISCORDO_TOKEN="NDgzOTQwOTQ2MDU3MTAxMzI1.GJ0J9X.A4hDtgyhTIbELHG7T283Ea8T9N1bHPm8oCSiC8"
 autoload -U history-search-end
 
 export PATH=$PATH:/opt/scripts
@@ -25,13 +24,5 @@ alias tldr-browse="tldr -l | fzf --preview "tldr {1} --color=always" --preview-w
 bindkey "^R" fzf-history-widget
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# opencode
-export PATH=/Users/jbellon/.opencode/bin:$PATH
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/jbellon/.lmstudio/bin"
-# End of LM Studio CLI section
-
 
 . "$HOME/.local/bin/env"
