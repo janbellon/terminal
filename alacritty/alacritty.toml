@@ -46,7 +46,7 @@ multiplier = 3
 
 [window]
 dynamic_title = true
-startup_mode = "Fullscreen"
+startup_mode = "windowed"
 
 [window.dimensions]
 columns = 120

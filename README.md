@@ -25,7 +25,7 @@ cargo install zellij
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 ```
-## installation
+## Installation
 ```bash
 git clone https://gitlab.nobell.fr/jan/terminal ~/.terminal
 cd ~/.terminal
